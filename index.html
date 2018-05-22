@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Demonstration of semantic LaTeX</title>
+    <script type="text/javascript" async
+	    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script type="text/x-mathjax-config">
+      MathJax.Ajax.config.path["Extra"] = "http://localhost:8100/";
+      MathJax.Hub.Config({
+      extensions: ["[Extra]/sro.js"]
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Absolute value</h1>
+    <p>
+      \(\newcommand{\abs}[1]{\sro{absolute value}\left|#1\right|}\)
+      So \(2x\) is twice the value of \(x\).
+    </p>
+    <p>
+      So \(\abs{x}\) is the absolute value of \(x\).
+    </p>
+    <h1>Cases</h1>
+    <p>
+      \(\renewenvironment{cases}{\begin{cases}}{\end{cases}}\)
+      \(\
+    </p>
+  </body>
+</html>
