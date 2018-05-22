@@ -8,3 +8,4 @@ This is something like [Peter Krautzberger's Experiments with ARIA in math rende
 \abs{x}
 ```
 
+A live demo is [on GitHub pages](https://kisonecat.github.io/screen-reader-demo/index.html).
